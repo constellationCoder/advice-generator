@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    display: grid;
+    place-items: center;
+    position: relative;
+    font-family: 'Manrope';
+}
+
+.container {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 16px;
+    margin-top: 35vh;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.circle {
+    background-color: hsl(150, 100%, 66%);
+    /* Your background color */
+    border-radius: 50%;
+    width: 50px;
+    /* Set width */
+    height: 50px;
+    /* Set height */
+    position: relative;
+    /* Needed for absolute positioning */
+}
+
+.dice {
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    /* Optional: makes the image circular */
+}
+
+.title {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: 5px;
+    word-spacing: 5px;
+}
+
+.advice {
+    color: hsl(193, 38%, 86%);
+    gap: 2rem;
+}
+
+.divider {
+    margin: 3rem 0 2rem;
+}
